@@ -1,0 +1,116 @@
+* 
+{      
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2% 8%;
+}
+nav {
+flex: 1;
+text-align: right;
+}
+nav ul {
+display: inline-block;
+list-style: none;
+}
+nav ul li {
+position: relative;
+display: inline-block;
+padding: 8px 12px;
+}
+a {
+text-decoration: none;
+color: #555;
+}
+.container {
+max-width: 1300px;
+padding: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.row {
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.col-2 {
+position: relative;
+flex-basis: 50%;
+min-width: 300px;
+}
+.col-2 img {
+padding: 0;
+width: 1000px;
+margin-top: -20%;
+}
+.btn {
+display: inline-block;
+background: #fb911f;
+color: #fff;
+padding: 15px 30px;
+border-radius: 20px;
+transition: 0,5s;
+align-items: center;
+}
+.btn :hover {
+background: #563434;
+}
+header {
+
+ background: radial-gradient(#fff #fb911f);
+}
+.col-3 {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+}
+.col-3 > h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    font-size: 20px;  
+    margin-bottom: 10px;   
+}
+input {
+    width: 500px;
+    height: 5vh;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background: gold;
+}
+textarea {
+    resize: none;
+    width: 500px;
+    height: 150px;
+    background: gold;
+}
+.userInput {
+    margin-left: 450px;
+    margin-top: 50px;
+    background: gold;
+}
+#btnSendMsg {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+} 
+#btnSendMsg:hover {
+    background-color:white;
+    color: black;
+}
