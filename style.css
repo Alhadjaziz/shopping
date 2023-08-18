@@ -5,10 +5,26 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins',sans-serif;
 }
+body {
+    background-color: orange;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     padding: 2% 8%;
+    background-color: aqua;
+    color: #555;
+    width: 1600px;
+    
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 nav {
 flex: 1;
